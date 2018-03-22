@@ -1,0 +1,95 @@
+
+1. Account-holder
+
+import java.util.*
+public class account-holder extends Date{
+private double balance;
+String Name;
+
+
+account-holder(Name,balance)
+       {
+this.Name=Name;
+this.balance=balance;
+       }
+
+public double getBalance()
+	{
+		return balance;
+	}
+public void deposit(double amount)
+	{
+		balance = balance + amount;
+	}
+
+public void withdraw(double amount)
+	{
+		balance = balance - amount;
+	}
+public void datecreated(dt){
+Date(dt){
+Date=dt;
+       }
+Date date = new Date(dt);
+Boolean after(Date,2009,3,12);
+
+       }
+
+public static void main(String args[])
+       {
+account-holder obj1 = new account-holder(Shweta,1000);
+System.out.println(obj1);
+System.out.println(obj1.datecreated(2017,2,12));
+obj1.withdraw(100);
+obj1.deposit(250);
+obj1.getBalance;
+        }
+        }
+
+Output:Shweta,1000
+       True
+       1150
+
+2.
+public class employee extends Date{
+String Name;
+int Year;
+public void employedsince(dt){
+Date date = new date(dt);
+System.out.println(dt);
+}}
+
+public class Manager extends employee{
+double salary;
+public void salarydrawn(){
+System.out.println(salary);
+}}
+
+public class Salesmanager extends Manager{
+double commision;
+public void commision(){
+System.out.println(commision);}
+
+3. Interface and cloning of object
+import java.io.*;
+import java.util.ArrayList;
+interface printable{  
+void print();  
+}  
+public class sample implements printable,Cloneable{  
+public void print(){System.out.println("Hi dear");}  
+  
+public static void main(String args[]) throws
+                          CloneNotSupportedException{  
+sample obj1 = new sample();  
+obj1.print();  
+sample obj2 = (sample)obj1.clone();
+obj2.print();
+ }  
+}  
+
+
+output:
+Hi dear
+Hi dear
+
